@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre"
+        android:text="LUGAR"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/erick"
+        android:background="@color/black"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:text="Descripcion"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/lili"
+        android:textColor="@color/diego"
+        android:layout_marginTop="10dp"
+        android:textAlignment="gravity"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cordenadas:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="@color/lili"
+        android:textColor="@color/erick"
+        android:textSize="20sp"
+        android:id="@+id/cordenadas"/>
+
+    <ImageView
+        android:id="@+id/sigImagen"
+        android:layout_marginTop="5dp"
+        android:layout_width="368dp"
+        android:layout_height="408dp"
+        android:src="@drawable/escudo_itt_grande"
+        />
+</LinearLayout>

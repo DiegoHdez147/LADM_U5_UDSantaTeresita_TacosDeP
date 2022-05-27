@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "647332369000",
+    "project_id": "mapa-1a782",
+    "storage_bucket": "mapa-1a782.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647332369000:android:7ef455db4a0db08f7321dd",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.udsantateresita_tacosdep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647332369000-pfeppb18okm9hr1edcjgs93i3ls8tb0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1FuUNlw9c2LEKxdyK6nx6hPq472Zr46Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647332369000-pfeppb18okm9hr1edcjgs93i3ls8tb0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
